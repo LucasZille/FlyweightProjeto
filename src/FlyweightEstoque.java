@@ -70,11 +70,11 @@ public class FlyweightEstoque {
         Produto vestido = new Produto("Vestido", 80.0, "Vestido de verão", vestuario);
         Produto moletom = new Produto("Moletom", 120.0, "Calça moletom de inverno", vestuario);
 
-        System.out.println("Produto: " + tv.getNome() + ", Categoria: " + tv.getCategoria().getNome());
-        System.out.println("Produto: " + laptop.getNome() + ", Categoria: " + laptop.getCategoria().getNome());
-        System.out.println("Produto: " + xbox.getNome() + ", Categoria: " + xbox.getCategoria().getNome());
-        System.out.println("Produto: " + camisa.getNome() + ", Categoria: " + camisa.getCategoria().getNome());
-        System.out.println("Produto: " + vestido.getNome() + ", Categoria: " + vestido.getCategoria().getNome());
-        System.out.println("Produto: " + moletom.getNome() + ", Categoria: " + moletom.getCategoria().getNome());
+        System.out.println("Produto: " + tv.getNome() + ", Categoria: " + tv.getCategoria().getNome() + ", Preço: " + tv.getPreco() + ", Descricao: " + tv.getDescricao());
+        System.out.println("Produto: " + laptop.getNome() + ", Categoria: " + laptop.getCategoria().getNome() + ", Preço: " + laptop.getPreco() + ", Descricao: " + laptop.getDescricao());
+        System.out.println("Produto: " + xbox.getNome() + ", Categoria: " + xbox.getCategoria().getNome() + ", Preço: " + xbox.getPreco() + ", Descricao: " + xbox.getDescricao());
+        System.out.println("Produto: " + camisa.getNome() + ", Categoria: " + camisa.getCategoria().getNome() + ", Preço: " + camisa.getPreco() + ", Descricao: " + camisa.getDescricao());
+        System.out.println("Produto: " + vestido.getNome() + ", Categoria: " + vestido.getCategoria().getNome() + ", Preço: " + vestido.getPreco() + ", Descricao: " + vestido.getDescricao());
+        System.out.println("Produto: " + moletom.getNome() + ", Categoria: " + moletom.getCategoria().getNome() + ", Preço: " + moletom.getPreco() + ", Descricao: " + moletom.getDescricao());
     }
 }
